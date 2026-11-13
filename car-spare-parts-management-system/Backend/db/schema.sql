@@ -1,0 +1,4 @@
+--DATABASE Schema for car spare parts
+--
+--1
+--CREATE DATABASE car_spare_parts_db
