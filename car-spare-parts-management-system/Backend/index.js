@@ -9,9 +9,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 
 
-app.get("/",(req,res)=>{
-    res.send("get ready")
-})
+app.get("/api",mainRuote)
 
 app.listen(3000,()=>{
     console.log("server is starting http://localhost:3000")
