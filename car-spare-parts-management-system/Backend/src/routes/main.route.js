@@ -1,2 +1,3 @@
 import express from 'express'
-const mainRuote=express.Router()
+
+export const mainRuote=express.Router()
